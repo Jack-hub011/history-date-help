@@ -1,0 +1,88 @@
+
+/* Main Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+    /* Background Image */
+    background-image: url("https://imgc.allpostersimages.com/img/posters/michal-bednarek-usa-grunge-flag-vintage-retro-style-high-resolution-hd-quality-item-from-my-grunge-flags-colle_u-l-q105mge0.jpg?artHeight=550&artPerspective=n&artWidth=550&dodropshadow=1&background=ffffff");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Main Header */
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 30px;
+}
+
+/* Navigation Bar */
+nav {
+    /* see through background */
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: lightblue;
+}
+
+/* Main Content */
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Content Sections */
+section {
+    /* also slightly see through to feel more modern */
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 12px;
+}
+
+/* Headings */
+h1, h2 {
+    font-family: Georgia, serif;
+}
+
+/* Paragraphs */
+p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Buttons */
+button {
+    background-color: #1a4c88;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #41658c;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 15px;
+}
